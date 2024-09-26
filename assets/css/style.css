@@ -9,8 +9,19 @@
     border: none;
 }
 
-header {
+a {
+    text-decoration: none;
+}
+
+body {
     background-color: black;
+}
+
+header {
+    margin: 65px 80px 0px 80px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -27,4 +38,33 @@ header {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+
+nav {
+
+}
+
+nav a {
+    margin-right: 30px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button img {
+
+}
+
+.login-button a {
+    padding-left: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
 }
