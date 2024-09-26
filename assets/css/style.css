@@ -8,3 +8,23 @@
     padding: 0;
     border: none;
 }
+
+header {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+
+    padding-right: 10px;
+
+    text-transform: uppercase;
+}
+
+.logo p {
+    padding-right: 10px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
