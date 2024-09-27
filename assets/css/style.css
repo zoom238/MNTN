@@ -13,11 +13,21 @@ a {
     text-decoration: none;
 }
 
-.above_title_item{
+.container {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+.above_text_item {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.above_title_item {
     width: 72px;
     height: 2px;
-
-    align-self: center;
 
     background: rgb(251, 215, 132);
 }
@@ -119,9 +129,8 @@ main {
     flex-direction: column;
 }
 
-.block__enter_above_text_item {
-    display: flex;
-
+.block__enter .above_text_item {
+    margin: 0;
     gap: 32px;
 }
 
