@@ -197,3 +197,43 @@ main {
 	margin-right: 28px;
 	padding-bottom: 40px;
 }
+
+.block__numbered {
+	margin-top: 800px;
+}
+
+.block__numbered_section {
+	display: flex;
+}
+
+.block__numbered_section_item {
+	position: relative;
+}
+
+.block__numbered_section img {
+}
+
+.block__numbered_section_item_bg_design {
+	position: absolute;
+
+	font-size: 240px;
+	font-weight: 700;
+	line-height: 240px;
+	opacity: 0.1;
+}
+
+.block__numbered_section_item h2 {
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 96px;
+}
+
+.block__numbered_section_item_description {
+	line-height: 32px;
+}
+
+.block__numbered_section_paragraph {
+	line-height: 27px;
+
+	color: rgb(251, 215, 132);
+}
