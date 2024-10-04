@@ -203,11 +203,15 @@ main {
 }
 
 .block__numbered_section {
+	position: relative;
+	margin-bottom: 200px;
+
 	display: flex;
+	justify-content: space-between;
 }
 
 .block__numbered_section_item {
-	position: relative;
+	margin: 141px 0px 0px 150px;
 }
 
 .block__numbered_section img {
@@ -215,25 +219,42 @@ main {
 
 .block__numbered_section_item_bg_design {
 	position: absolute;
+	top: 38px;
 
 	font-size: 240px;
 	font-weight: 700;
 	line-height: 240px;
 	opacity: 0.1;
+
+	user-select: none;
+}
+
+.block__numbered_section_item_text {
+	gap: 24px;
 }
 
 .block__numbered_section_item h2 {
+	margin-top: 28px;
+
 	font-size: 64px;
 	font-weight: 600;
 	line-height: 96px;
 }
 
 .block__numbered_section_item_description {
+	margin-top: 27px;
+
 	line-height: 32px;
 }
 
 .block__numbered_section_paragraph {
+	margin-top: 27px;
+
 	line-height: 27px;
 
 	color: rgb(251, 215, 132);
+}
+
+.bg_design_2 {
+	left: 680px;
 }
