@@ -11,6 +11,7 @@
 
 a {
 	text-decoration: none;
+	user-select: none;
 }
 
 .container {
@@ -257,4 +258,62 @@ main {
 
 .bg_design_2 {
 	left: 680px;
+}
+
+footer {
+	margin-bottom: 120px !important;
+	height: 292px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__section_first_column {
+	justify-content: space-between;
+}
+
+.footer__section h3 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 3px;
+}
+
+.footer__text {
+	position: absolute;
+	top: 62px;
+
+	line-height: 32px;
+}
+
+.footer__copyright {
+	font-weight: 500;
+	line-height: 32px;
+	opacity: 0.5;
+	user-select: none;
+}
+
+.footer__second_column {
+	right: 373px;
+	position: absolute;
+}
+
+.footer__section {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__section_title {
+	margin-bottom: 16px;
+	font-size: 24px;
+	font-weight: 700;
+
+	color: rgb(251, 215, 132);
+}
+
+.footer__section a {
+	padding-top: 16px;
+
+	font-weight: 500;
+	line-height: 32px;
 }
