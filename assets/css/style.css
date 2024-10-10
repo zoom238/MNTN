@@ -262,7 +262,6 @@ main {
 
 footer {
 	margin-bottom: 120px !important;
-	height: 292px;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -294,8 +293,16 @@ footer {
 }
 
 .footer__second_column {
-	right: 373px;
-	position: absolute;
+	margin-right: 196px;
+
+	text-align: start;
+	display: flex;
+	align-items: flex-end;
+	flex: 2;
+}
+
+.footer__third_column {
+	flex: 1;
 }
 
 .footer__section {
