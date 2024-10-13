@@ -261,7 +261,7 @@ main {
 }
 
 footer {
-	margin-bottom: 120px !important;
+	padding-bottom: 120px;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -279,8 +279,8 @@ footer {
 }
 
 .footer__text {
-	position: absolute;
-	top: 62px;
+	flex: 2;
+	margin-top: 14px;
 
 	line-height: 32px;
 }
@@ -301,8 +301,12 @@ footer {
 	flex: 2;
 }
 
+.footer__second_column_item {
+	display: flex;
+	flex-direction: column;
+}
+
 .footer__third_column {
-	flex: 1;
 }
 
 .footer__section {
