@@ -34,7 +34,6 @@ a {
 }
 
 .above_title {
-	font-size: 18px;
 	font-weight: 800;
 	line-height: 27px;
 	letter-spacing: 6px;
@@ -69,8 +68,6 @@ header {
 
 .logo {
 	display: flex;
-
-	padding-right: 10px;
 
 	text-transform: uppercase;
 }
@@ -140,7 +137,6 @@ main {
 }
 
 .block__enter .title {
-	width: 100vh;
 	margin: 32px 0 0 0;
 }
 
@@ -243,6 +239,8 @@ main {
 }
 
 .block__numbered_section_item_description {
+	width: 59vh;
+
 	margin-top: 27px;
 
 	line-height: 32px;
