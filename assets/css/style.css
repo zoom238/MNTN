@@ -15,7 +15,7 @@ a {
 }
 
 .container {
-	max-width: 1460px;
+	max-width: 76vw;
 	margin: 0 auto;
 }
 
@@ -174,7 +174,7 @@ main {
 }
 
 .aside__right {
-	height: 27vh;
+	height: 260px;
 	position: relative;
 
 	border-right: 3px solid rgba(255, 255, 255, 0.5);
@@ -255,7 +255,7 @@ main {
 }
 
 .bg_design_2 {
-	left: 680px;
+	left: 38vw;
 }
 
 footer {
