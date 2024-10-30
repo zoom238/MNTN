@@ -1,10 +1,156 @@
 @media (min-width: 3840px) {
-	body {
-		background-color: rgb(255, 255, 255);
+	* {
+		font-size: 48px;
+		line-height: 1;
+	}
+
+	main {
+		margin-top: 400px;
+	}
+
+	header {
+		margin: 80px 120px 0 120px;
+	}
+
+	.above_title_item {
+		width: 160px;
+		height: 4px;
+	}
+
+	.logo p {
+		letter-spacing: 20px;
+
+		font-size: 60px;
+		line-height: 30px;
+	}
+
+	nav {
+		gap: 150px;
+	}
+
+	nav a {
+		font-size: 48px;
+	}
+
+	.title {
+		font-size: 180px;
+		line-height: 1;
+	}
+
+	.login-button img {
+		height: 100%;
+
+		padding-right: 40px;
+	}
+
+	.login-button a {
+		font-size: 32px;
+	}
+
+	.aside__left p {
+		font-size: 52px;
+	}
+
+	.instagram-link {
+		margin-top: 140px;
+	}
+
+	.instagram-link img {
+		height: 100%;
+	}
+
+	.twitter-link {
+		margin-top: 50px;
+	}
+
+	.twitter-link img {
+		height: 100%;
+	}
+
+	.aside__right::before {
+		height: 100px;
+	}
+
+	.aside__right {
+		height: 480px;
+	}
+
+	.aside__right_item p {
+		margin-right: 40px;
+		padding-bottom: 70px;
+	}
+
+	.block__numbered {
+		margin-top: 1900px;
+	}
+
+	.block__numbered_section {
+		margin-bottom: 350px;
+	}
+
+	.block__numbered_section img {
+		width: 40%;
+	}
+
+	.block__numbered_section h2 {
+		font-size: 134px;
+		line-height: 1.4;
+	}
+
+	.block__numbered_section_item_description {
+		line-height: 1.5;
+	}
+
+	.block__numbered_section_item_bg_design {
+		font-size: 400px;
+	}
+
+	.bg_design_2 {
+		left: 42.5vw;
+	}
+
+	.block__numbered_section_paragraph {
+		margin-top: 70px;
+	}
+
+	.block__numbered_section_item_text {
+		gap: 65px;
+	}
+
+	footer {
+		padding-bottom: 250px;
+	}
+
+	.footer__section_first_column h3 {
+		font-size: 64px;
+	}
+
+	.footer__text {
+		margin-top: 60px;
+		line-height: 1.4;
+	}
+
+	.footer__copyright {
+		margin-top: 200px;
+	}
+
+	.footer__section_title {
+		font-size: 48px;
+	}
+
+	.footer__section a {
+		padding-top: 64px;
 	}
 }
 
-@media (max-width: 2160px) {
+@media (min-width: 2160px) and (max-width: 3839px) {
+	.block__numbered {
+		margin-top: 960px;
+	}
+
+	.bg_design_2 {
+		left: 42vw;
+	}
 }
 
 @media (max-width: 1220px) {
@@ -243,40 +389,6 @@
 @media (max-width: 480px) {
 	body {
 		background-color: pink;
-	}
-
-	header {
-		margin: 25px 30px 0 30px;
-	}
-
-	.logo p {
-		font-size: 12px;
-		letter-spacing: 6px;
-	}
-
-	nav a {
-		font-size: 12px;
-	}
-
-	.login-button img {
-		width: 20px;
-	}
-
-	.login-button a {
-		font-size: 12px;
-	}
-
-	main {
-		margin-top: 20px;
-	}
-
-	.above_title {
-		font-size: 8px;
-	}
-
-	.title {
-		font-size: 24px;
-		line-height: 40px;
 	}
 }
 

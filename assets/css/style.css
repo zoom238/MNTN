@@ -72,7 +72,7 @@ header {
 	text-transform: uppercase;
 }
 
-.logo {
+.logo p {
 	letter-spacing: 10px;
 
 	font-size: 20px;
@@ -96,9 +96,11 @@ nav a {
 	align-items: center;
 }
 
-.login-button a {
-	padding-left: 10px;
+.login-button img {
+	padding-right: 10px;
+}
 
+.login-button a {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 21px;
@@ -211,9 +213,6 @@ main {
 	margin: 141px 0px 0px 150px;
 }
 
-.block__numbered_section img {
-}
-
 .block__numbered_section_item_bg_design {
 	position: absolute;
 	top: 38px;
@@ -239,7 +238,7 @@ main {
 }
 
 .block__numbered_section_item_description {
-	width: 59vh;
+	width: 25vw;
 
 	margin-top: 27px;
 
