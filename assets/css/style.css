@@ -303,9 +303,6 @@ footer {
 	flex-direction: column;
 }
 
-.footer__third_column {
-}
-
 .footer__section {
 	display: flex;
 	flex-direction: column;
